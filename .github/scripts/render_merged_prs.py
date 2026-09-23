@@ -246,8 +246,8 @@ def main() -> int:
 
     block = (
         f"{body}\n\n<sub>Merges only, per project - no individual pull request is listed. "
-        f"Checked automatically by "
-        "[.github/workflows/refresh.yml](.github/workflows/refresh.yml)"
+        f"Rendered by "
+        "[.github/scripts/render_merged_prs.py](.github/scripts/render_merged_prs.py)"
         f"; last change {datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC')}.</sub>"
     )
     start, stop = match.span()
