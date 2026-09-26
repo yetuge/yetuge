@@ -15,30 +15,32 @@ Individual pull requests are not listed here.
 
 <!-- merged-prs:start -->
 <p align="center">
-  <img src="https://img.shields.io/badge/Merged%20PRs-11-8250DF?style=for-the-badge&logo=git&logoColor=white" alt="11 merged prs" />
-  <img src="https://img.shields.io/badge/Projects-7-0969DA?style=for-the-badge&logo=box&logoColor=white" alt="7 projects" />
-  <img src="https://img.shields.io/badge/Upstream%20stars-352.1k-BF8700?style=for-the-badge&logo=github&logoColor=white" alt="352.1k upstream stars" />
+  <img src="https://img.shields.io/badge/Merged%20PRs-18-8250DF?style=for-the-badge&logo=git&logoColor=white" alt="18 merged prs" />
+  <img src="https://img.shields.io/badge/Projects-9-0969DA?style=for-the-badge&logo=box&logoColor=white" alt="9 projects" />
+  <img src="https://img.shields.io/badge/Upstream%20stars-455.7k-BF8700?style=for-the-badge&logo=github&logoColor=white" alt="455.7k upstream stars" />
 </p>
 
 | Project | ★ | Language | Merged |
 | :-- | --: | :-- | --: |
-| [`langgenius/dify`](https://github.com/langgenius/dify) | 156.9k | ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) | 2 |
+| [`langgenius/dify`](https://github.com/langgenius/dify) | 157.2k | ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) | 2 |
+| [`bytedance/deer-flow`](https://github.com/bytedance/deer-flow) | 83.0k | ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) | 3 |
 | [`zhayujie/CowAgent`](https://github.com/zhayujie/CowAgent) | 47.1k | ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) | 3 |
-| [`agno-agi/agno`](https://github.com/agno-agi/agno) | 42.3k | ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) | 2 |
+| [`agno-agi/agno`](https://github.com/agno-agi/agno) | 42.3k | ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) | 4 |
 | [`Hmbown/Codewhale`](https://github.com/Hmbown/Codewhale) | 41.0k | ![Rust](https://img.shields.io/badge/-Rust-000000?style=flat-square&logo=rust&logoColor=white) | 1 |
-| [`langfuse/langfuse`](https://github.com/langfuse/langfuse) | 35.0k | ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) | 1 |
+| [`langfuse/langfuse`](https://github.com/langfuse/langfuse) | 35.1k | ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) | 1 |
+| [`eosphoros-ai/DB-GPT`](https://github.com/eosphoros-ai/DB-GPT) | 20.0k | ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) | 2 |
 | [`YishenTu/claudian`](https://github.com/YishenTu/claudian) | 15.5k | ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) | 1 |
-| [`livekit/agents`](https://github.com/livekit/agents) | 14.3k | ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) | 1 |
+| [`livekit/agents`](https://github.com/livekit/agents) | 14.4k | ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) | 1 |
 
 <details><summary>Merged per month</summary>
 
 ```text
-2026-09  ████████████  11
+2026-09  ████████████  18
 ```
 
 </details>
 
-<sub>Merges only, per project - no individual pull request is listed. Rendered by [.github/scripts/render_merged_prs.py](.github/scripts/render_merged_prs.py); last change 2026-09-23 08:08 UTC.</sub>
+<sub>Merges only, per project - no individual pull request is listed. Rendered by [.github/scripts/render_merged_prs.py](.github/scripts/render_merged_prs.py); last change 2026-09-26 08:44 UTC.</sub>
 <!-- merged-prs:end -->
 
 ## Built by me
