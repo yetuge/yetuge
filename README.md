@@ -50,6 +50,6 @@ hand-written and stays outside the generated block above.
 
 | Project | What it is |
 | :-- | :-- |
+| [`yetuge/tinycode`](https://github.com/yetuge/tinycode) | 极简但完整的 Coding Agent Harness：约 4.5k 行 TypeScript 读懂 Agent 循环、工具、权限、Skills、MCP 与子代理 |
 | [`yetuge/Miniclaw`](https://github.com/yetuge/Miniclaw) | 基于 Pi Agent Runtime 的 AI Agent 工作台：多渠道接入、持久化记忆、Skills、MCP、Subagents 与任务调度 |
-| [`yetuge/ecommerce-agent`](https://github.com/yetuge/ecommerce-agent) | Multi-Agent 电商推荐系统工程原型：FastAPI + LangGraph 编排用户画像、商品召回、库存校验、营销文案 |
 | [`yetuge/TalkMate-AI`](https://github.com/yetuge/TalkMate-AI) | AI 英语口语陪练：场景化对话、流式交流、即时语法反馈与会话报告 |
