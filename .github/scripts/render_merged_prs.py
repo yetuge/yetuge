@@ -14,7 +14,6 @@ import re
 import sys
 import urllib.parse
 import urllib.request
-from datetime import datetime, timezone
 from pathlib import Path
 
 API = "https://api.github.com/graphql"
@@ -37,8 +36,6 @@ query($search: String!, $cursor: String) {
   }
 }
 """
-
-STAMP = re.compile(r"\n*<sub>.*</sub>\s*\Z")
 
 SHIELDS = "https://img.shields.io/badge/"
 LANG_STYLE = {
@@ -207,20 +204,13 @@ def main() -> int:
     match = pattern.search(text)
     if not match:
         raise SystemExit(f"Markers not found in {readme}")
-    # The footnote timestamp changes every run, so compare on the data alone.
-    if STAMP.sub("", match.group(1)).strip() == body.strip():
+    if match.group(1).strip() == body.strip():
         print(f"{readme} already up to date ({merged_total} merged)")
         return 0
 
-    block = (
-        f"{body}\n\n<sub>Merges only, per project - no individual pull request is listed. "
-        f"Rendered by "
-        "[.github/scripts/render_merged_prs.py](.github/scripts/render_merged_prs.py)"
-        f"; last change {datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC')}.</sub>"
-    )
     start, stop = match.span()
     readme.write_text(
-        f"{text[:start]}{START}\n{block}\n{END}{text[stop:]}",
+        f"{text[:start]}{START}\n{body}\n{END}{text[stop:]}",
         encoding="utf-8",
         newline="\n",
     )

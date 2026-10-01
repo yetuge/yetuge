@@ -34,8 +34,6 @@ Individual pull requests are not listed here.
 | [`eosphoros-ai/DB-GPT`](https://github.com/eosphoros-ai/DB-GPT) | 20.1k | ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) | 2 |
 | [`YishenTu/claudian`](https://github.com/YishenTu/claudian) | 15.6k | ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) | 1 |
 | [`livekit/agents`](https://github.com/livekit/agents) | 14.4k | ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) | 1 |
-
-<sub>Merges only, per project - no individual pull request is listed. Rendered by [.github/scripts/render_merged_prs.py](.github/scripts/render_merged_prs.py); last change 2026-10-01 04:30 UTC.</sub>
 <!-- merged-prs:end -->
 
 ## Built by me
