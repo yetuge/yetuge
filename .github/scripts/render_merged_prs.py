@@ -14,16 +14,13 @@ import re
 import sys
 import urllib.parse
 import urllib.request
-from collections import Counter
 from datetime import datetime, timezone
 from pathlib import Path
 
 API = "https://api.github.com/graphql"
 START = "<!-- merged-prs:start -->"
 END = "<!-- merged-prs:end -->"
-MAX_MONTHS = 12
 MAX_PAGES = 5
-BAR = 12
 MIN_STARS = 1000
 
 PAGE = """
@@ -132,23 +129,6 @@ def compact(number: int) -> str:
     return f"{number / 1000:.1f}k" if number >= 1000 else str(number)
 
 
-def cadence(per_month: Counter, now: str) -> list[str]:
-    if not per_month:
-        return []
-    year, month = (int(part) for part in min(per_month).split("-"))
-    span = []
-    while f"{year:04d}-{month:02d}" <= now:
-        span.append(f"{year:04d}-{month:02d}")
-        year, month = (year + 1, 1) if month == 12 else (year, month + 1)
-    peak = max(per_month.values())
-    out = []
-    for label in span[-MAX_MONTHS:]:
-        count = per_month.get(label, 0)
-        width = max(1, round(count / peak * BAR)) if count else 0
-        out.append(f"{label}  {'█' * width}{'░' * (BAR - width)}  {count}")
-    return out
-
-
 def render(rows: list[dict], merged_total: int) -> str:
     if not rows:
         return "_Nothing merged upstream yet._"
@@ -167,8 +147,6 @@ def render(rows: list[dict], merged_total: int) -> str:
         )
         entry["merged"] += 1
 
-    per_month = Counter(row["stamp"][:7] for row in rows)
-    now = datetime.now(timezone.utc).strftime("%Y-%m")
     order = sorted(projects, key=lambda n: (-projects[n]["stars"], n))
     total_stars = sum(entry["stars"] for entry in projects.values())
 
@@ -195,16 +173,6 @@ def render(rows: list[dict], merged_total: int) -> str:
         out.append(row + f"| {entry['merged']} |")
     if len(rows) < merged_total:
         out += ["", f"<sub>Per-project counts cover the {len(rows)} most recent merges.</sub>"]
-    out += [
-        "",
-        "<details><summary>Merged per month</summary>",
-        "",
-        "```text",
-        *cadence(per_month, now),
-        "```",
-        "",
-        "</details>",
-    ]
     return "\n".join(out)
 
 

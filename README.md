@@ -15,35 +15,27 @@ Individual pull requests are not listed here.
 
 <!-- merged-prs:start -->
 <p align="center">
-  <img src="https://img.shields.io/badge/Merged%20PRs-31-8250DF?style=for-the-badge&logo=git&logoColor=white" alt="31 merged prs" />
+  <img src="https://img.shields.io/badge/Merged%20PRs-33-8250DF?style=for-the-badge&logo=git&logoColor=white" alt="33 merged prs" />
   <img src="https://img.shields.io/badge/Projects-12-0969DA?style=for-the-badge&logo=box&logoColor=white" alt="12 projects" />
-  <img src="https://img.shields.io/badge/Upstream%20stars-576.5k-BF8700?style=for-the-badge&logo=github&logoColor=white" alt="576.5k upstream stars" />
+  <img src="https://img.shields.io/badge/Upstream%20stars-576.7k-BF8700?style=for-the-badge&logo=github&logoColor=white" alt="576.7k upstream stars" />
 </p>
 
 | Project | ★ | Language | Merged |
 | :-- | --: | :-- | --: |
 | [`langgenius/dify`](https://github.com/langgenius/dify) | 157.6k | ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) | 2 |
-| [`bytedance/deer-flow`](https://github.com/bytedance/deer-flow) | 83.3k | ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) | 9 |
-| [`CherryHQ/cherry-studio`](https://github.com/CherryHQ/cherry-studio) | 52.3k | ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) | 5 |
+| [`bytedance/deer-flow`](https://github.com/bytedance/deer-flow) | 83.3k | ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) | 10 |
+| [`CherryHQ/cherry-studio`](https://github.com/CherryHQ/cherry-studio) | 52.3k | ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) | 6 |
 | [`zhayujie/CowAgent`](https://github.com/zhayujie/CowAgent) | 47.2k | ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) | 3 |
 | [`agno-agi/agno`](https://github.com/agno-agi/agno) | 42.4k | ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) | 4 |
 | [`Hmbown/Codewhale`](https://github.com/Hmbown/Codewhale) | 41.0k | ![Rust](https://img.shields.io/badge/-Rust-000000?style=flat-square&logo=rust&logoColor=white) | 1 |
 | [`CopilotKit/CopilotKit`](https://github.com/CopilotKit/CopilotKit) | 37.6k | ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) | 1 |
 | [`langfuse/langfuse`](https://github.com/langfuse/langfuse) | 35.2k | ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) | 1 |
-| [`assafelovic/gpt-researcher`](https://github.com/assafelovic/gpt-researcher) | 29.8k | ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) | 1 |
+| [`assafelovic/gpt-researcher`](https://github.com/assafelovic/gpt-researcher) | 29.9k | ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) | 1 |
 | [`eosphoros-ai/DB-GPT`](https://github.com/eosphoros-ai/DB-GPT) | 20.1k | ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) | 2 |
-| [`YishenTu/claudian`](https://github.com/YishenTu/claudian) | 15.5k | ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) | 1 |
+| [`YishenTu/claudian`](https://github.com/YishenTu/claudian) | 15.6k | ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) | 1 |
 | [`livekit/agents`](https://github.com/livekit/agents) | 14.4k | ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) | 1 |
 
-<details><summary>Merged per month</summary>
-
-```text
-2026-09  ████████████  31
-```
-
-</details>
-
-<sub>Merges only, per project - no individual pull request is listed. Rendered by [.github/scripts/render_merged_prs.py](.github/scripts/render_merged_prs.py); last change 2026-09-30 14:23 UTC.</sub>
+<sub>Merges only, per project - no individual pull request is listed. Rendered by [.github/scripts/render_merged_prs.py](.github/scripts/render_merged_prs.py); last change 2026-10-01 04:30 UTC.</sub>
 <!-- merged-prs:end -->
 
 ## Built by me
@@ -53,6 +45,6 @@ hand-written and stays outside the generated block above.
 
 | Project | What it is |
 | :-- | :-- |
-| [`yetuge/tinycode`](https://github.com/yetuge/tinycode) | 极简但完整的 Coding Agent Harness：约 4.5k 行 TypeScript 读懂 Agent 循环、工具、权限、Skills、MCP 与子代理 |
 | [`yetuge/fintrace`](https://github.com/yetuge/fintrace) | 基于 Pi Agent Runtime 的金融研究 Agent 工作台，统一管理智能体、工作区、会话、记忆、工具与自动化任务 |
+| [`yetuge/tinycode`](https://github.com/yetuge/tinycode) | 极简但完整的 Coding Agent Harness：约 4.5k 行 TypeScript 读懂 Agent 循环、工具、权限、Skills、MCP 与子代理 |
 | [`yetuge/TalkMate-AI`](https://github.com/yetuge/TalkMate-AI) | AI 英语口语陪练：场景化对话、流式交流、即时语法反馈与会话报告 |
