@@ -30,7 +30,7 @@ query($search: String!, $cursor: String) {
     nodes {
       ... on PullRequest {
         mergedAt
-        baseRepository { nameWithOwner stargazerCount primaryLanguage { name } }
+        baseRepository { nameWithOwner stargazerCount }
       }
     }
   }
@@ -38,23 +38,6 @@ query($search: String!, $cursor: String) {
 """
 
 SHIELDS = "https://img.shields.io/badge/"
-LANG_STYLE = {
-    "Python": ("3776AB", "python", "white"),
-    "Rust": ("000000", "rust", "white"),
-    "TypeScript": ("3178C6", "typescript", "white"),
-    "JavaScript": ("F7DF1E", "javascript", "black"),
-    "Go": ("00ADD8", "go", "white"),
-    "C++": ("00599C", "cplusplus", "white"),
-    "C": ("A8B9CC", "c", "black"),
-    "Java": ("ED8B00", "openjdk", "white"),
-    "Kotlin": ("7F52FF", "kotlin", "white"),
-    "Swift": ("F05138", "swift", "white"),
-    "Ruby": ("CC342D", "rubygems", "white"),
-    "Shell": ("89E051", "gnu-bash", "black"),
-    "HTML": ("E34F26", "html5", "white"),
-    "Vue": ("4FC08D", "vuedotjs", "black"),
-}
-UNKNOWN_LANG = ("8B949E", "", "white")
 
 
 def quote(text: str) -> str:
@@ -68,15 +51,6 @@ def metric(label: str, value: str, color: str, logo: str) -> str:
         f"?style=for-the-badge&logo={quote(logo)}&logoColor=white"
     )
     return f'<img src="{url}" alt="{value} {label.lower()}" />'
-
-
-def pill(text: str) -> str:
-    """A small brand-coloured tag, used for languages inside table cells."""
-    color, logo, logo_color = LANG_STYLE.get(text, UNKNOWN_LANG)
-    url = f"{SHIELDS}-{quote(text)}-{color}?style=flat-square"
-    if logo:
-        url += f"&logo={quote(logo)}&logoColor={logo_color}"
-    return f"![{text}]({url})"
 
 
 def gql(token: str, variables: dict) -> dict:
@@ -136,20 +110,12 @@ def render(rows: list[dict], merged_total: int) -> str:
         name = repo["nameWithOwner"]
         entry = projects.setdefault(
             name,
-            {
-                "stars": repo["stargazerCount"],
-                "lang": (repo.get("primaryLanguage") or {}).get("name") or "-",
-                "merged": 0,
-            },
+            {"stars": repo["stargazerCount"], "merged": 0},
         )
         entry["merged"] += 1
 
     order = sorted(projects, key=lambda n: (-projects[n]["stars"], n))
     total_stars = sum(entry["stars"] for entry in projects.values())
-
-    langs = {entry["lang"] for entry in projects.values()}
-    # One language across every row is noise, so the column only appears once they differ.
-    show_lang = len(langs) > 1
 
     out = [
         '<p align="center">',
@@ -158,16 +124,16 @@ def render(rows: list[dict], merged_total: int) -> str:
         "  " + metric("Upstream stars", compact(total_stars), "BF8700", "github"),
         "</p>",
         "",
-        "| Project | ★ | Language | Merged |" if show_lang else "| Project | ★ | Merged |",
-        "| :-- | --: | :-- | --: |" if show_lang else "| :-- | --: | --: |",
+        "| Project | ★ | Merged |",
+        "| :-- | --: | --: |",
     ]
     for name in order:
         entry = projects[name]
-        row = f"| [`{name}`](https://github.com/{name}) | {compact(entry['stars'])} "
-        if show_lang:
-            lang = pill(entry["lang"]) if entry["lang"] != "-" else "—"
-            row += f"| {lang} "
-        out.append(row + f"| {entry['merged']} |")
+        row = (
+            f"| [`{name}`](https://github.com/{name}) "
+            f"| {compact(entry['stars'])} | {entry['merged']} |"
+        )
+        out.append(row)
     if len(rows) < merged_total:
         out += ["", f"<sub>Per-project counts cover the {len(rows)} most recent merges.</sub>"]
     return "\n".join(out)

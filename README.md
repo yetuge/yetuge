@@ -15,25 +15,25 @@ Individual pull requests are not listed here.
 
 <!-- merged-prs:start -->
 <p align="center">
-  <img src="https://img.shields.io/badge/Merged%20PRs-33-8250DF?style=for-the-badge&logo=git&logoColor=white" alt="33 merged prs" />
+  <img src="https://img.shields.io/badge/Merged%20PRs-37-8250DF?style=for-the-badge&logo=git&logoColor=white" alt="37 merged prs" />
   <img src="https://img.shields.io/badge/Projects-12-0969DA?style=for-the-badge&logo=box&logoColor=white" alt="12 projects" />
-  <img src="https://img.shields.io/badge/Upstream%20stars-576.7k-BF8700?style=for-the-badge&logo=github&logoColor=white" alt="576.7k upstream stars" />
+  <img src="https://img.shields.io/badge/Upstream%20stars-577.2k-BF8700?style=for-the-badge&logo=github&logoColor=white" alt="577.2k upstream stars" />
 </p>
 
-| Project | ★ | Language | Merged |
-| :-- | --: | :-- | --: |
-| [`langgenius/dify`](https://github.com/langgenius/dify) | 157.6k | ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) | 2 |
-| [`bytedance/deer-flow`](https://github.com/bytedance/deer-flow) | 83.3k | ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) | 10 |
-| [`CherryHQ/cherry-studio`](https://github.com/CherryHQ/cherry-studio) | 52.3k | ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) | 6 |
-| [`zhayujie/CowAgent`](https://github.com/zhayujie/CowAgent) | 47.2k | ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) | 3 |
-| [`agno-agi/agno`](https://github.com/agno-agi/agno) | 42.4k | ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) | 4 |
-| [`Hmbown/Codewhale`](https://github.com/Hmbown/Codewhale) | 41.0k | ![Rust](https://img.shields.io/badge/-Rust-000000?style=flat-square&logo=rust&logoColor=white) | 1 |
-| [`CopilotKit/CopilotKit`](https://github.com/CopilotKit/CopilotKit) | 37.6k | ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) | 1 |
-| [`langfuse/langfuse`](https://github.com/langfuse/langfuse) | 35.2k | ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) | 1 |
-| [`assafelovic/gpt-researcher`](https://github.com/assafelovic/gpt-researcher) | 29.9k | ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) | 1 |
-| [`eosphoros-ai/DB-GPT`](https://github.com/eosphoros-ai/DB-GPT) | 20.1k | ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) | 2 |
-| [`YishenTu/claudian`](https://github.com/YishenTu/claudian) | 15.6k | ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) | 1 |
-| [`livekit/agents`](https://github.com/livekit/agents) | 14.4k | ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) | 1 |
+| Project | ★ | Merged |
+| :-- | --: | --: |
+| [`langgenius/dify`](https://github.com/langgenius/dify) | 157.7k | 2 |
+| [`bytedance/deer-flow`](https://github.com/bytedance/deer-flow) | 83.3k | 12 |
+| [`CherryHQ/cherry-studio`](https://github.com/CherryHQ/cherry-studio) | 52.3k | 8 |
+| [`zhayujie/CowAgent`](https://github.com/zhayujie/CowAgent) | 47.2k | 3 |
+| [`agno-agi/agno`](https://github.com/agno-agi/agno) | 42.5k | 4 |
+| [`Hmbown/Codewhale`](https://github.com/Hmbown/Codewhale) | 41.0k | 1 |
+| [`CopilotKit/CopilotKit`](https://github.com/CopilotKit/CopilotKit) | 37.7k | 1 |
+| [`langfuse/langfuse`](https://github.com/langfuse/langfuse) | 35.3k | 1 |
+| [`assafelovic/gpt-researcher`](https://github.com/assafelovic/gpt-researcher) | 29.9k | 1 |
+| [`eosphoros-ai/DB-GPT`](https://github.com/eosphoros-ai/DB-GPT) | 20.1k | 2 |
+| [`YishenTu/claudian`](https://github.com/YishenTu/claudian) | 15.6k | 1 |
+| [`livekit/agents`](https://github.com/livekit/agents) | 14.5k | 1 |
 <!-- merged-prs:end -->
 
 ## Built by me
