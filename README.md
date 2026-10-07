@@ -15,25 +15,25 @@ Individual pull requests are not listed here.
 
 <!-- merged-prs:start -->
 <p align="center">
-  <img src="https://img.shields.io/badge/Merged%20PRs-37-8250DF?style=for-the-badge&logo=git&logoColor=white" alt="37 merged prs" />
+  <img src="https://img.shields.io/badge/Merged%20PRs-41-8250DF?style=for-the-badge&logo=git&logoColor=white" alt="41 merged prs" />
   <img src="https://img.shields.io/badge/Projects-12-0969DA?style=for-the-badge&logo=box&logoColor=white" alt="12 projects" />
-  <img src="https://img.shields.io/badge/Upstream%20stars-577.2k-BF8700?style=for-the-badge&logo=github&logoColor=white" alt="577.2k upstream stars" />
+  <img src="https://img.shields.io/badge/Upstream%20stars-578.3k-BF8700?style=for-the-badge&logo=github&logoColor=white" alt="578.3k upstream stars" />
 </p>
 
 | Project | ★ | Merged |
 | :-- | --: | --: |
-| [`langgenius/dify`](https://github.com/langgenius/dify) | 157.7k | 2 |
-| [`bytedance/deer-flow`](https://github.com/bytedance/deer-flow) | 83.3k | 12 |
-| [`CherryHQ/cherry-studio`](https://github.com/CherryHQ/cherry-studio) | 52.3k | 8 |
-| [`zhayujie/CowAgent`](https://github.com/zhayujie/CowAgent) | 47.2k | 3 |
-| [`agno-agi/agno`](https://github.com/agno-agi/agno) | 42.5k | 4 |
-| [`Hmbown/Codewhale`](https://github.com/Hmbown/Codewhale) | 41.0k | 1 |
-| [`CopilotKit/CopilotKit`](https://github.com/CopilotKit/CopilotKit) | 37.7k | 1 |
-| [`langfuse/langfuse`](https://github.com/langfuse/langfuse) | 35.3k | 1 |
+| [`langgenius/dify`](https://github.com/langgenius/dify) | 158.0k | 2 |
+| [`bytedance/deer-flow`](https://github.com/bytedance/deer-flow) | 83.5k | 16 |
+| [`CherryHQ/cherry-studio`](https://github.com/CherryHQ/cherry-studio) | 52.4k | 8 |
+| [`zhayujie/CowAgent`](https://github.com/zhayujie/CowAgent) | 47.3k | 3 |
+| [`agno-agi/agno`](https://github.com/agno-agi/agno) | 42.6k | 4 |
+| [`codewhale-hq/Codewhale`](https://github.com/codewhale-hq/Codewhale) | 41.1k | 1 |
+| [`CopilotKit/CopilotKit`](https://github.com/CopilotKit/CopilotKit) | 37.8k | 1 |
+| [`langfuse/langfuse`](https://github.com/langfuse/langfuse) | 35.5k | 1 |
 | [`assafelovic/gpt-researcher`](https://github.com/assafelovic/gpt-researcher) | 29.9k | 1 |
 | [`eosphoros-ai/DB-GPT`](https://github.com/eosphoros-ai/DB-GPT) | 20.1k | 2 |
 | [`YishenTu/claudian`](https://github.com/YishenTu/claudian) | 15.6k | 1 |
-| [`livekit/agents`](https://github.com/livekit/agents) | 14.5k | 1 |
+| [`livekit/agents`](https://github.com/livekit/agents) | 14.6k | 1 |
 <!-- merged-prs:end -->
 
 ## Built by me
@@ -43,6 +43,6 @@ hand-written and stays outside the generated block above.
 
 | Project | What it is |
 | :-- | :-- |
-| [`yetuge/fintrace`](https://github.com/yetuge/fintrace) | 基于 Pi Agent Runtime 的金融研究 Agent 工作台，统一管理智能体、工作区、会话、记忆、工具与自动化任务 |
+| [`yetuge/alphadesk`](https://github.com/yetuge/alphadesk) | 本地优先的 AI 原生投资研究工作台：结构化行情数据、证据支撑的 Agent 投研副驾，持续追踪什么变了、为什么重要 |
 | [`yetuge/tinycode`](https://github.com/yetuge/tinycode) | 极简但完整的 Coding Agent Harness：约 4.5k 行 TypeScript 读懂 Agent 循环、工具、权限、Skills、MCP 与子代理 |
 | [`yetuge/TalkMate-AI`](https://github.com/yetuge/TalkMate-AI) | AI 英语口语陪练：场景化对话、流式交流、即时语法反馈与会话报告 |
