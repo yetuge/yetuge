@@ -15,25 +15,26 @@ Individual pull requests are not listed here.
 
 <!-- merged-prs:start -->
 <p align="center">
-  <img src="https://img.shields.io/badge/Merged%20PRs-41-8250DF?style=for-the-badge&logo=git&logoColor=white" alt="41 merged prs" />
-  <img src="https://img.shields.io/badge/Projects-12-0969DA?style=for-the-badge&logo=box&logoColor=white" alt="12 projects" />
-  <img src="https://img.shields.io/badge/Upstream%20stars-578.3k-BF8700?style=for-the-badge&logo=github&logoColor=white" alt="578.3k upstream stars" />
+  <img src="https://img.shields.io/badge/Merged%20PRs-49-8250DF?style=for-the-badge&logo=git&logoColor=white" alt="49 merged prs" />
+  <img src="https://img.shields.io/badge/Projects-13-0969DA?style=for-the-badge&logo=box&logoColor=white" alt="13 projects" />
+  <img src="https://img.shields.io/badge/Upstream%20stars-615.0k-BF8700?style=for-the-badge&logo=github&logoColor=white" alt="615.0k upstream stars" />
 </p>
 
 | Project | ★ | Merged |
 | :-- | --: | --: |
-| [`langgenius/dify`](https://github.com/langgenius/dify) | 158.0k | 2 |
-| [`bytedance/deer-flow`](https://github.com/bytedance/deer-flow) | 83.5k | 16 |
-| [`CherryHQ/cherry-studio`](https://github.com/CherryHQ/cherry-studio) | 52.4k | 8 |
-| [`zhayujie/CowAgent`](https://github.com/zhayujie/CowAgent) | 47.3k | 3 |
-| [`agno-agi/agno`](https://github.com/agno-agi/agno) | 42.6k | 4 |
+| [`langgenius/dify`](https://github.com/langgenius/dify) | 158.5k | 2 |
+| [`bytedance/deer-flow`](https://github.com/bytedance/deer-flow) | 83.9k | 23 |
+| [`CherryHQ/cherry-studio`](https://github.com/CherryHQ/cherry-studio) | 52.7k | 8 |
+| [`zhayujie/CowAgent`](https://github.com/zhayujie/CowAgent) | 47.4k | 3 |
+| [`agno-agi/agno`](https://github.com/agno-agi/agno) | 42.7k | 4 |
 | [`codewhale-hq/Codewhale`](https://github.com/codewhale-hq/Codewhale) | 41.1k | 1 |
-| [`CopilotKit/CopilotKit`](https://github.com/CopilotKit/CopilotKit) | 37.8k | 1 |
-| [`langfuse/langfuse`](https://github.com/langfuse/langfuse) | 35.5k | 1 |
-| [`assafelovic/gpt-researcher`](https://github.com/assafelovic/gpt-researcher) | 29.9k | 1 |
+| [`CopilotKit/CopilotKit`](https://github.com/CopilotKit/CopilotKit) | 38.0k | 1 |
+| [`langfuse/langfuse`](https://github.com/langfuse/langfuse) | 35.9k | 1 |
+| [`Tencent/WeKnora`](https://github.com/Tencent/WeKnora) | 34.1k | 1 |
+| [`assafelovic/gpt-researcher`](https://github.com/assafelovic/gpt-researcher) | 30.1k | 1 |
 | [`eosphoros-ai/DB-GPT`](https://github.com/eosphoros-ai/DB-GPT) | 20.1k | 2 |
-| [`YishenTu/claudian`](https://github.com/YishenTu/claudian) | 15.6k | 1 |
-| [`livekit/agents`](https://github.com/livekit/agents) | 14.6k | 1 |
+| [`YishenTu/claudian`](https://github.com/YishenTu/claudian) | 15.7k | 1 |
+| [`livekit/agents`](https://github.com/livekit/agents) | 14.8k | 1 |
 <!-- merged-prs:end -->
 
 ## Built by me
@@ -46,3 +47,7 @@ hand-written and stays outside the generated block above.
 | [`yetuge/alphadesk`](https://github.com/yetuge/alphadesk) | 本地优先的 AI 原生投资研究工作台：结构化行情数据、证据支撑的 Agent 投研副驾，持续追踪什么变了、为什么重要 |
 | [`yetuge/tinycode`](https://github.com/yetuge/tinycode) | 极简但完整的 Coding Agent Harness：约 4.5k 行 TypeScript 读懂 Agent 循环、工具、权限、Skills、MCP 与子代理 |
 | [`yetuge/TalkMate-AI`](https://github.com/yetuge/TalkMate-AI) | AI 英语口语陪练：场景化对话、流式交流、即时语法反馈与会话报告 |
+
+## Contact
+
+正在寻找 **AI Agent 开发**与 **AI 应用开发**方向的岗位，欢迎联系：[2219677952@qq.com](mailto:2219677952@qq.com)
