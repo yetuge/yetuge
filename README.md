@@ -50,4 +50,4 @@ hand-written and stays outside the generated block above.
 
 ## Contact
 
-正在寻找 **AI Agent 开发**与 **AI 应用开发**方向的岗位，欢迎联系：[2219677952@qq.com](mailto:2219677952@qq.com)
+Currently seeking roles in **AI Agent development** and **AI application development**. Reach me at [2219677952@qq.com](mailto:2219677952@qq.com).
