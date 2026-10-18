@@ -15,26 +15,27 @@ Individual pull requests are not listed here.
 
 <!-- merged-prs:start -->
 <p align="center">
-  <img src="https://img.shields.io/badge/Merged%20PRs-49-8250DF?style=for-the-badge&logo=git&logoColor=white" alt="49 merged prs" />
-  <img src="https://img.shields.io/badge/Projects-13-0969DA?style=for-the-badge&logo=box&logoColor=white" alt="13 projects" />
-  <img src="https://img.shields.io/badge/Upstream%20stars-615.0k-BF8700?style=for-the-badge&logo=github&logoColor=white" alt="615.0k upstream stars" />
+  <img src="https://img.shields.io/badge/Merged%20PRs-51-8250DF?style=for-the-badge&logo=git&logoColor=white" alt="51 merged prs" />
+  <img src="https://img.shields.io/badge/Projects-14-0969DA?style=for-the-badge&logo=box&logoColor=white" alt="14 projects" />
+  <img src="https://img.shields.io/badge/Upstream%20stars-618.7k-BF8700?style=for-the-badge&logo=github&logoColor=white" alt="618.7k upstream stars" />
 </p>
 
 | Project | ★ | Merged |
 | :-- | --: | --: |
-| [`langgenius/dify`](https://github.com/langgenius/dify) | 158.5k | 2 |
-| [`bytedance/deer-flow`](https://github.com/bytedance/deer-flow) | 83.9k | 23 |
+| [`langgenius/dify`](https://github.com/langgenius/dify) | 158.7k | 2 |
+| [`bytedance/deer-flow`](https://github.com/bytedance/deer-flow) | 84.0k | 24 |
 | [`CherryHQ/cherry-studio`](https://github.com/CherryHQ/cherry-studio) | 52.7k | 8 |
 | [`zhayujie/CowAgent`](https://github.com/zhayujie/CowAgent) | 47.4k | 3 |
-| [`agno-agi/agno`](https://github.com/agno-agi/agno) | 42.7k | 4 |
+| [`agno-agi/agno`](https://github.com/agno-agi/agno) | 42.8k | 4 |
 | [`codewhale-hq/Codewhale`](https://github.com/codewhale-hq/Codewhale) | 41.1k | 1 |
-| [`CopilotKit/CopilotKit`](https://github.com/CopilotKit/CopilotKit) | 38.0k | 1 |
-| [`langfuse/langfuse`](https://github.com/langfuse/langfuse) | 35.9k | 1 |
-| [`Tencent/WeKnora`](https://github.com/Tencent/WeKnora) | 34.1k | 1 |
+| [`CopilotKit/CopilotKit`](https://github.com/CopilotKit/CopilotKit) | 38.1k | 1 |
+| [`langfuse/langfuse`](https://github.com/langfuse/langfuse) | 36.0k | 1 |
+| [`Tencent/WeKnora`](https://github.com/Tencent/WeKnora) | 34.5k | 1 |
 | [`assafelovic/gpt-researcher`](https://github.com/assafelovic/gpt-researcher) | 30.1k | 1 |
-| [`eosphoros-ai/DB-GPT`](https://github.com/eosphoros-ai/DB-GPT) | 20.1k | 2 |
+| [`eosphoros-ai/DB-GPT`](https://github.com/eosphoros-ai/DB-GPT) | 20.2k | 2 |
 | [`YishenTu/claudian`](https://github.com/YishenTu/claudian) | 15.7k | 1 |
 | [`livekit/agents`](https://github.com/livekit/agents) | 14.8k | 1 |
+| [`Nano-Collective/nanocoder`](https://github.com/Nano-Collective/nanocoder) | 2.5k | 1 |
 <!-- merged-prs:end -->
 
 ## Built by me
