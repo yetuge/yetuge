@@ -15,22 +15,22 @@ Individual pull requests are not listed here.
 
 <!-- merged-prs:start -->
 <p align="center">
-  <img src="https://img.shields.io/badge/Merged%20PRs-58-8250DF?style=for-the-badge&logo=git&logoColor=white" alt="58 merged prs" />
+  <img src="https://img.shields.io/badge/Merged%20PRs-62-8250DF?style=for-the-badge&logo=git&logoColor=white" alt="62 merged prs" />
   <img src="https://img.shields.io/badge/Projects-14-0969DA?style=for-the-badge&logo=box&logoColor=white" alt="14 projects" />
-  <img src="https://img.shields.io/badge/Upstream%20stars-622.1k-BF8700?style=for-the-badge&logo=github&logoColor=white" alt="622.1k upstream stars" />
+  <img src="https://img.shields.io/badge/Upstream%20stars-622.6k-BF8700?style=for-the-badge&logo=github&logoColor=white" alt="622.6k upstream stars" />
 </p>
 
 | Project | ★ | Merged |
 | :-- | --: | --: |
-| [`langgenius/dify`](https://github.com/langgenius/dify) | 159.5k | 2 |
+| [`langgenius/dify`](https://github.com/langgenius/dify) | 159.6k | 2 |
 | [`bytedance/deer-flow`](https://github.com/bytedance/deer-flow) | 84.4k | 30 |
 | [`CherryHQ/cherry-studio`](https://github.com/CherryHQ/cherry-studio) | 53.0k | 8 |
 | [`zhayujie/CowAgent`](https://github.com/zhayujie/CowAgent) | 47.6k | 3 |
-| [`agno-agi/agno`](https://github.com/agno-agi/agno) | 42.9k | 4 |
+| [`agno-agi/agno`](https://github.com/agno-agi/agno) | 42.9k | 5 |
 | [`codewhale-hq/Codewhale`](https://github.com/codewhale-hq/Codewhale) | 41.1k | 1 |
 | [`CopilotKit/CopilotKit`](https://github.com/CopilotKit/CopilotKit) | 38.2k | 1 |
-| [`langfuse/langfuse`](https://github.com/langfuse/langfuse) | 36.4k | 1 |
-| [`Tencent/WeKnora`](https://github.com/Tencent/WeKnora) | 35.3k | 2 |
+| [`langfuse/langfuse`](https://github.com/langfuse/langfuse) | 36.5k | 1 |
+| [`Tencent/WeKnora`](https://github.com/Tencent/WeKnora) | 35.5k | 5 |
 | [`assafelovic/gpt-researcher`](https://github.com/assafelovic/gpt-researcher) | 30.3k | 1 |
 | [`eosphoros-ai/DB-GPT`](https://github.com/eosphoros-ai/DB-GPT) | 20.2k | 2 |
 | [`YishenTu/claudian`](https://github.com/YishenTu/claudian) | 15.8k | 1 |
