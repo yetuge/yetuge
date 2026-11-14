@@ -6,7 +6,21 @@
     GH_TOKEN=$(gh auth token) python .github/scripts/render_merged_prs.py
   then commit and push. The generated block names projects that merged a pull request
   and have 1,000+ stars, as name + count.
+  The banner and divider in assets/ are hand-drawn SVGs; each ships a light and a dark
+  variant that the browser picks from its colour scheme.
 -->
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/hero-light.svg">
+  <img src="assets/hero-light.svg" width="100%" alt="yetuge — AI Agent Developer" />
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/divider-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/divider-light.svg">
+  <img src="assets/divider-light.svg" width="100%" alt="" />
+</picture>
 
 ## Open source
 

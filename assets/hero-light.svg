@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="480" viewBox="0 0 1200 480" role="img" aria-label="yetuge — AI Agent Developer">
+  <title>yetuge — AI Agent Developer</title>
+  <defs>
+    <marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#75BB97"/>
+    </marker>
+  </defs>
+
+  <rect width="1200" height="480" rx="12" fill="#EDF5F0"/>
+  <circle cx="900" cy="255" r="150" fill="none" stroke="#D8E8DE" stroke-width="1.5"/>
+
+  <line x1="0" y1="48" x2="1200" y2="48" stroke="#C4DACD" stroke-width="2"/>
+  <circle cx="28" cy="24" r="6" fill="#DE7C78"/>
+  <circle cx="53" cy="24" r="6" fill="#DEBF78"/>
+  <circle cx="78" cy="24" r="6" fill="#75BB97"/>
+  <text x="105" y="30" font-size="15" fill="#5B7A6B" font-family="Consolas,Menlo,monospace">yetuge@github: ~/profile</text>
+
+  <text x="44" y="118" font-size="21" fill="#206B51" font-family="Consolas,Menlo,monospace">$ whoami</text>
+  <text x="42" y="192" font-size="56" font-weight="700" fill="#14352A" font-family="Consolas,Menlo,monospace">yetuge</text>
+  <rect x="258" y="146" width="16" height="46" fill="#206B51" opacity="0.85"/>
+  <text x="44" y="244" font-size="20" fill="#3D5C4E" font-family="Consolas,Menlo,monospace">AI Agent Developer · Open Source Contributor</text>
+
+  <text x="44" y="306" font-size="18" fill="#206B51" font-family="Consolas,Menlo,monospace">$ cat focus.txt</text>
+  <text x="44" y="340" font-size="18" fill="#3D5C4E" font-family="Consolas,Menlo,monospace">Agent Runtime · LLM Applications · TypeScript / Python</text>
+
+  <text x="44" y="402" font-size="18" fill="#206B51" font-family="Consolas,Menlo,monospace">$ cat status.txt</text>
+  <text x="44" y="436" font-size="18" fill="#3D5C4E" font-family="Consolas,Menlo,monospace">Seeking Agent-related roles · NUAA, Nanjing</text>
+
+  <path d="M 900 150 A 105 105 0 0 1 991 307.5" fill="none" stroke="#75BB97" stroke-width="3" marker-end="url(#ah)"/>
+  <path d="M 991 307.5 A 105 105 0 0 1 809 202.5" fill="none" stroke="#75BB97" stroke-width="3" marker-end="url(#ah)"/>
+  <path d="M 809 202.5 A 105 105 0 0 1 900 150" fill="none" stroke="#75BB97" stroke-width="3" marker-end="url(#ah)"/>
+
+  <circle cx="900" cy="150" r="36" fill="#FFFFFF" stroke="#206B51" stroke-width="2.5"/>
+  <circle cx="991" cy="307.5" r="36" fill="#FFFFFF" stroke="#206B51" stroke-width="2.5"/>
+  <circle cx="809" cy="202.5" r="36" fill="#FFFFFF" stroke="#206B51" stroke-width="2.5"/>
+  <text x="900" y="150" font-size="15" fill="#14352A" font-family="Consolas,Menlo,monospace" text-anchor="middle" dominant-baseline="central">think</text>
+  <text x="991" y="307.5" font-size="15" fill="#14352A" font-family="Consolas,Menlo,monospace" text-anchor="middle" dominant-baseline="central">act</text>
+  <text x="809" y="202.5" font-size="15" fill="#14352A" font-family="Consolas,Menlo,monospace" text-anchor="middle" dominant-baseline="central">observe</text>
+  <text x="900" y="258" font-size="13" fill="#5B7A6B" font-family="Consolas,Menlo,monospace" text-anchor="middle">agent loop</text>
+</svg>
