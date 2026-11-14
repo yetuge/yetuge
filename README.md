@@ -36,8 +36,6 @@ Individual pull requests are not listed here.
 | [`YishenTu/claudian`](https://github.com/YishenTu/claudian) | 16.0k | 1 |
 | [`livekit/agents`](https://github.com/livekit/agents) | 15.2k | 1 |
 | [`Nano-Collective/nanocoder`](https://github.com/Nano-Collective/nanocoder) | 2.6k | 1 |
-
-<sub>Per-project counts cover the 113 most recent merges.</sub>
 <!-- merged-prs:end -->
 
 ## Built by me

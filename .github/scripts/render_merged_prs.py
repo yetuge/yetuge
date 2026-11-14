@@ -134,8 +134,6 @@ def render(rows: list[dict], merged_total: int) -> str:
             f"| {compact(entry['stars'])} | {entry['merged']} |"
         )
         out.append(row)
-    if len(rows) < merged_total:
-        out += ["", f"<sub>Per-project counts cover the {len(rows)} most recent merges.</sub>"]
     return "\n".join(out)
 
 
