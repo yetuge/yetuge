@@ -15,27 +15,29 @@ Individual pull requests are not listed here.
 
 <!-- merged-prs:start -->
 <p align="center">
-  <img src="https://img.shields.io/badge/Merged%20PRs-94-8250DF?style=for-the-badge&logo=git&logoColor=white" alt="94 merged prs" />
+  <img src="https://img.shields.io/badge/Merged%20PRs-115-8250DF?style=for-the-badge&logo=git&logoColor=white" alt="115 merged prs" />
   <img src="https://img.shields.io/badge/Projects-14-0969DA?style=for-the-badge&logo=box&logoColor=white" alt="14 projects" />
-  <img src="https://img.shields.io/badge/Upstream%20stars-628.5k-BF8700?style=for-the-badge&logo=github&logoColor=white" alt="628.5k upstream stars" />
+  <img src="https://img.shields.io/badge/Upstream%20stars-630.6k-BF8700?style=for-the-badge&logo=github&logoColor=white" alt="630.6k upstream stars" />
 </p>
 
 | Project | ★ | Merged |
 | :-- | --: | --: |
-| [`langgenius/dify`](https://github.com/langgenius/dify) | 160.7k | 20 |
-| [`bytedance/deer-flow`](https://github.com/bytedance/deer-flow) | 85.2k | 38 |
-| [`CherryHQ/cherry-studio`](https://github.com/CherryHQ/cherry-studio) | 53.4k | 8 |
-| [`zhayujie/CowAgent`](https://github.com/zhayujie/CowAgent) | 47.8k | 3 |
-| [`agno-agi/agno`](https://github.com/agno-agi/agno) | 43.1k | 5 |
+| [`langgenius/dify`](https://github.com/langgenius/dify) | 161.2k | 32 |
+| [`bytedance/deer-flow`](https://github.com/bytedance/deer-flow) | 85.3k | 41 |
+| [`CherryHQ/cherry-studio`](https://github.com/CherryHQ/cherry-studio) | 53.5k | 8 |
+| [`zhayujie/CowAgent`](https://github.com/zhayujie/CowAgent) | 47.9k | 3 |
+| [`agno-agi/agno`](https://github.com/agno-agi/agno) | 43.2k | 5 |
 | [`codewhale-hq/Codewhale`](https://github.com/codewhale-hq/Codewhale) | 41.2k | 1 |
-| [`CopilotKit/CopilotKit`](https://github.com/CopilotKit/CopilotKit) | 38.6k | 1 |
-| [`langfuse/langfuse`](https://github.com/langfuse/langfuse) | 37.2k | 1 |
-| [`Tencent/WeKnora`](https://github.com/Tencent/WeKnora) | 36.9k | 11 |
-| [`assafelovic/gpt-researcher`](https://github.com/assafelovic/gpt-researcher) | 30.6k | 1 |
+| [`CopilotKit/CopilotKit`](https://github.com/CopilotKit/CopilotKit) | 38.7k | 1 |
+| [`Tencent/WeKnora`](https://github.com/Tencent/WeKnora) | 37.4k | 15 |
+| [`langfuse/langfuse`](https://github.com/langfuse/langfuse) | 37.4k | 1 |
+| [`assafelovic/gpt-researcher`](https://github.com/assafelovic/gpt-researcher) | 30.7k | 1 |
 | [`eosphoros-ai/DB-GPT`](https://github.com/eosphoros-ai/DB-GPT) | 20.3k | 2 |
-| [`YishenTu/claudian`](https://github.com/YishenTu/claudian) | 15.9k | 1 |
-| [`livekit/agents`](https://github.com/livekit/agents) | 15.1k | 1 |
+| [`YishenTu/claudian`](https://github.com/YishenTu/claudian) | 16.0k | 1 |
+| [`livekit/agents`](https://github.com/livekit/agents) | 15.2k | 1 |
 | [`Nano-Collective/nanocoder`](https://github.com/Nano-Collective/nanocoder) | 2.6k | 1 |
+
+<sub>Per-project counts cover the 113 most recent merges.</sub>
 <!-- merged-prs:end -->
 
 ## Built by me
